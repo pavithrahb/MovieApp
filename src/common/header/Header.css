@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: Roboto;
+  }
+  
+  .Navbar {
+    background-color: #222;
+    width: 100%;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+  }
+  
+  .Toolbar {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+  .Logo {
+    flex-grow: 1;
+    float: right;
+  }
+  .image{
+      height: 35px;
+      background-color: #ff7f7f;
+      align-self: left;
+      animation: rotation infinite 8s linear;
+  }
+  .bookshow-button {
+    float: right;
+    margin-right: 8px;
+  }
+
+  @keyframes rotation {
+    from {transform: scaleX(-1); }
+  }
+
+  .modal {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  /* .modal-container {
+    position: absolute;
+    width: 60%;
+    background: #ffffff;
+    left: 25%;
+    top: 30%;
+    padding: 20px;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  } */
+  
